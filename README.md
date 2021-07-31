@@ -37,3 +37,22 @@ In other words, assign the data point xi to the closest cluster judged by its su
 And M-step is:
 
 ![](https://github.com/kshitij-pro/capacitated_clustering/blob/6ca845e450e421373f34b3c2965104aa478cf1f2/Screenshot%202021-07-31%20174032.png)
+
+## Modified K-means for CCP
+1. Calculate the number of clusters
+   Calculated based on the demand (di) of the citiy i and the capacity of the cluster C as
+   
+   <a href="https://www.codecogs.com/eqnedit.php?latex=k&space;=&space;\left&space;\lceil&space;(\sum&space;_{i=1}^n&space;d_i)/c\right&space;\rceil" target="_blank"><img src="https://latex.codecogs.com/gif.latex?k&space;=&space;\left&space;\lceil&space;(\sum&space;_{i=1}^n&space;d_i)/c\right&space;\rceil" title="k = \left \lceil (\sum _{i=1}^n d_i)/c\right \rceil" /></a>
+
+2. Select initial centroids
+   The initial k centroids are selected by arranging the cities based on the decreasing order of demand. The first k cities are initial centroids.
+3.  Assign cities to clusters
+    The distance between each city to all k centroids are calculated. Group all the cities i to the closest centroid j. To find appropriate centroid j for city i, calculate a priority value-
+    
+      <a href="https://www.codecogs.com/eqnedit.php?latex=Priority_{i}&space;=&space;cost_{ij}/d_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Priority_{i}&space;=&space;cost_{ij}/d_i" title="Priority_{i} = cost_{ij}/d_i" /></a>
+  
+    Higher the priority more tempting it is to keep the city i in cluster j
+4.  Centroid Calculation
+    The centroid (Xj,Yj) for each cluster is calculated based on the member of the cluster.
+    
+## Implementation and Result
