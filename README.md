@@ -62,3 +62,5 @@ And M-step is:
       <a href="https://www.codecogs.com/eqnedit.php?latex=x_j&space;=&space;\sum&space;_{i=1}^mx_i/m\&space;\&space;y_j&space;=&space;\sum&space;_{i=1}^my_i/m" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_j&space;=&space;\sum&space;_{i=1}^mx_i/m\&space;\&space;y_j&space;=&space;\sum&space;_{i=1}^my_i/m" title="x_j = \sum _{i=1}^mx_i/m\ \ y_j = \sum _{i=1}^my_i/m" /></a>
     
 ## Implementation and Result
+
+![](https://github.com/kshitij-pro/capacitated_clustering/blob/b786020791c7b09c13a0b01e63b3409a776984f1/n32_vrp_instance.png)
