@@ -64,3 +64,4 @@ And M-step is:
 ## Implementation and Result
 
 ![](https://github.com/kshitij-pro/capacitated_clustering/blob/b786020791c7b09c13a0b01e63b3409a776984f1/n32_vrp_instance.png)
+![](https://github.com/kshitij-pro/capacitated_clustering/blob/abfdfce2ab6ffb2d6c6b19827eb8097002cece4c/itter1_sol.png)
