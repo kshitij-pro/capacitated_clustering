@@ -66,3 +66,4 @@ And M-step is:
 ![](https://github.com/kshitij-pro/capacitated_clustering/blob/b786020791c7b09c13a0b01e63b3409a776984f1/n32_vrp_instance.png)
 ![](https://github.com/kshitij-pro/capacitated_clustering/blob/abfdfce2ab6ffb2d6c6b19827eb8097002cece4c/itter1_sol.png)
 ![](https://github.com/kshitij-pro/capacitated_clustering/blob/c977db44d49a2c37b5f6592af4e10a3ce0b0c257/itter2_sol.png)
+![](https://github.com/kshitij-pro/capacitated_clustering/blob/c13d2b532839f014601392ff957a8f789c100afb/itter3_sol.png)
