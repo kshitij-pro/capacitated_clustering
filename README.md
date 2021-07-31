@@ -59,4 +59,6 @@ And M-step is:
 
     The centroid (Xj,Yj) for each cluster is calculated based on the member of the cluster.
     
+      <a href="https://www.codecogs.com/eqnedit.php?latex=x_j&space;=&space;\sum&space;_{i=1}^mx_i/m\&space;\&space;y_j&space;=&space;\sum&space;_{i=1}^my_i/m" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_j&space;=&space;\sum&space;_{i=1}^mx_i/m\&space;\&space;y_j&space;=&space;\sum&space;_{i=1}^my_i/m" title="x_j = \sum _{i=1}^mx_i/m\ \ y_j = \sum _{i=1}^my_i/m" /></a>
+    
 ## Implementation and Result
