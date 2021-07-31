@@ -30,10 +30,10 @@ where wik=1 for data point xi if it belongs to cluster k; otherwise, wik=0. Also
 
 It’s a minimization problem of two parts. We first minimize J w.r.t. wik and treat μk fixed. Then we minimize J w.r.t. μk and treat wik fixed. Technically speaking, we differentiate J w.r.t. wik first and update cluster assignments (E-step). Then we differentiate J w.r.t. μk and recompute the centroids after the cluster assignments from previous step (M-step). Therefore, E-step is:
 
-https://github.com/kshitij-pro/capacitated_clustering/blob/16a72e9d56305c881009b06fced70eaba25889b2/Screenshot%202021-07-31%20173858.png
+![](https://github.com/kshitij-pro/capacitated_clustering/blob/16a72e9d56305c881009b06fced70eaba25889b2/Screenshot%202021-07-31%20173858.png)
 
 In other words, assign the data point xi to the closest cluster judged by its sum of squared distance from cluster’s centroid.
 
 And M-step is:
 
-
+![](https://github.com/kshitij-pro/capacitated_clustering/blob/6ca845e450e421373f34b3c2965104aa478cf1f2/Screenshot%202021-07-31%20174032.png)
