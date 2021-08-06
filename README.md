@@ -1,4 +1,4 @@
-# project title
+# A modified K-means algoritmn for capacitated clustering problem
 ## Capacitated clustering problem
 In a capacitated clustering problem (CCP) set of n items having some weights/demands are grouped/clustered into k clusters which are all disjoint such that the total weight of a cluster does not cross the maximum capacity. Here we assume that all the individual weights/demands are less than the max. capacity and capacity for all clusters is same.
 
