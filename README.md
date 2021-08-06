@@ -73,3 +73,5 @@ Plotting the data gives the following result-
 ![](https://github.com/kshitij-pro/capacitated_clustering/blob/d28f96af88a14ac50c5e3a39ab8770a09fec45cc/itter5.png)
 
 ![](https://github.com/kshitij-pro/capacitated_clustering/blob/c7edd4b70131d0d1e3606b1af373bb7eedfff2ab/itter10.png)
+
+![](https://github.com/kshitij-pro/capacitated_clustering/blob/9d2242c695a0508c6bb21c3ad171dc2a9d6b7705/itter100.png)
