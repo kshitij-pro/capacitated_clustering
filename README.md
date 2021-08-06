@@ -70,3 +70,4 @@ Here we have taken a VRP problem with 32 cities from ![VRP Library](http://vrp.a
 Plotting the data gives the following result-
 ![](https://github.com/kshitij-pro/capacitated_clustering/blob/b786020791c7b09c13a0b01e63b3409a776984f1/n32_vrp_instance.png)
 
+![](https://github.com/kshitij-pro/capacitated_clustering/blob/d28f96af88a14ac50c5e3a39ab8770a09fec45cc/itter5.png)
