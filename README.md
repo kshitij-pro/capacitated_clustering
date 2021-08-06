@@ -26,8 +26,6 @@ The objective function is:
 
 ![](https://github.com/kshitij-pro/capacitated_clustering/blob/8c4e44e4a10c9c72108083d5df20e80340a2ffdc/Screenshot%202021-07-31%20172759.png)
 
-![](https://github.com/kshitij-pro/capacitated_clustering/blob/08fb28c65a0011b64631ea484cd1e5aa5732fc2f/itter1.png)
-
 where wik=1 for data point xi if it belongs to cluster k; otherwise, wik=0. Also, μk is the centroid of xi’s cluster.
 
 It’s a minimization problem of two parts. We first minimize J w.r.t. wik and treat μk fixed. Then we minimize J w.r.t. μk and treat wik fixed. Technically speaking, we differentiate J w.r.t. wik first and update cluster assignments (E-step). Then we differentiate J w.r.t. μk and recompute the centroids after the cluster assignments from previous step (M-step). Therefore, E-step is:
@@ -69,5 +67,7 @@ Here we have taken a VRP problem with 32 cities from ![VRP Library](http://vrp.a
 
 Plotting the data gives the following result-
 ![](https://github.com/kshitij-pro/capacitated_clustering/blob/b786020791c7b09c13a0b01e63b3409a776984f1/n32_vrp_instance.png)
+
+![](https://github.com/kshitij-pro/capacitated_clustering/blob/08fb28c65a0011b64631ea484cd1e5aa5732fc2f/itter1.png)
 
 ![](https://github.com/kshitij-pro/capacitated_clustering/blob/d28f96af88a14ac50c5e3a39ab8770a09fec45cc/itter5.png)
