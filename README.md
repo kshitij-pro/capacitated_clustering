@@ -78,4 +78,3 @@ Plotting the data gives the following result-
 
 ![](https://github.com/kshitij-pro/capacitated_clustering/blob/6ebd2861af27b1e3ab2749e7d014fdb4d4f7d159/vrpresult.png)
 
-![](https://github.com/kshitij-pro/capacitated_clustering/blob/a1128a5ccd1deebec684c313ad6597018bdfe9ac/vrp-result.png)
