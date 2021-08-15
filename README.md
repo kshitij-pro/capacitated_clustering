@@ -79,3 +79,5 @@ Plotting the data gives the following result-
 ![](https://github.com/kshitij-pro/capacitated_clustering/blob/6ebd2861af27b1e3ab2749e7d014fdb4d4f7d159/vrpresult.png)
 
 ![](https://github.com/kshitij-pro/capacitated_clustering/blob/2b69f062c0c46084ca45dae5823e3bef0e90a11d/vrp-result-2.png)
+
+Average closeness to optimum is 59.33% average over given 3 VRP problems
